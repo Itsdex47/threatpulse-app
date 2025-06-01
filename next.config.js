@@ -1,0 +1,1 @@
+/** @type {import('next').NextConfig} */\nconst nextConfig = {\n  experimental: {\n    appDir: true,\n  },\n  env: {\n    MAPBOX_ACCESS_TOKEN: process.env.MAPBOX_ACCESS_TOKEN,\n    DEEPSEEK_API_KEY: process.env.DEEPSEEK_API_KEY,\n    HUGGINGFACE_API_KEY: process.env.HUGGINGFACE_API_KEY,\n  }\n}\n\nmodule.exports = nextConfig
